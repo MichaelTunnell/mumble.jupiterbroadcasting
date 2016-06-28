@@ -390,11 +390,19 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     .pure-u-1-5 {
         width: 50%;
     }
+    #menu .pure-menu-heading img {
+        width: 60%;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 23.750em) {
     .pure-u-1-4,
     .pure-u-1-5 {
         width: 100%;
+    }
+    #menu .pure-menu-heading img {
+        width: 40%;
+        margin: 0 auto;
     }
 }
